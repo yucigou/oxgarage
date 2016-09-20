@@ -9,9 +9,9 @@ developed by Poznan Supercomputing and Networking Center and Oxford University C
 Installing
 --------
 
-Packages are available from the TEI's continuous integration (CI) server at http://tei.it.ox.ac.uk/jenkins/job/OxGarage/
+Packages are available from the TEI's continuous integration (CI) server at http://jenkins.tei-c.org/job/OxGarage/
 
- * If you  have a Debian or Ubuntu system, you can subscribe to TEI-related packages at http://tei.it.ox.ac.uk/teideb/, or download the .deb file directly from the CI server; these packages have a dependency on Apache Tomcat and the TEI (packages tei-xsl, tei-p5-source, and tomcat6)
+ //<!--* If you  have a Debian or Ubuntu system, you can subscribe to TEI-related packages at http://tei.it.ox.ac.uk/teideb/, or download the .deb file directly from the CI server; these packages have a dependency on Apache Tomcat and the TEI (packages tei-xsl, tei-p5-source, and tomcat6)-->
  * If you have a running Tomcat (or similar container), you can download  two WAR files from the CI server and install them in the normal way. in this case, you will need to do some configuration manually
  
  1.   copy the file  `ege-webservice/WEB-INF/lib/oxgarage.properties` to `/etc/oxgarage.properties`
